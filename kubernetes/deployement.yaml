@@ -7,13 +7,13 @@ spec:
   selector:
     matchLabels:
       app: imageclassifier
-  template:
+  template:wq
     metadata:
       labels:
         app: imageclassifier
     spec:
       containers:
       - name: cv-app
-        image: gcr.io/my-vision-project-283816/myapp:v1
+        image: gcr.io/cicdgcp-429910/myapp:v1
         ports:
         - containerPort: 8501
