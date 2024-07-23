@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: imageclassifier
-  template:wq
+  template:
     metadata:
       labels:
         app: imageclassifier
