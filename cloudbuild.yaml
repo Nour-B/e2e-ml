@@ -16,5 +16,5 @@ steps:
   args:
   - run
   - --filename=kubernetes/
-  - --location=us-west1-b
+  - --location=europe-west1-b
   - --cluster=mykube
