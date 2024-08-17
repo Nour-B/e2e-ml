@@ -17,5 +17,6 @@ spec:
       containers:
       - name: cv-app
         image: europe-west1-docker.pkg.dev/cicdgcp-429910/mlops/mymlmodel:test
+        imagePullPolicy: Always
         ports:
         - containerPort: 8501
