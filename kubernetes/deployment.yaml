@@ -12,8 +12,10 @@ spec:
       labels:
         app: imageclassifier
     spec:
+      imagePullSecrets:
+        - name: gcr-creds
       containers:
       - name: cv-app
-        image: gcr.io/cicdgcp-429910/myapp:v1
+        image: europe-west1-docker.pkg.dev/cicdgcp-429910/mlops/mymlmodel:test
         ports:
         - containerPort: 8501
