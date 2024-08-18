@@ -1,3 +1,5 @@
+# Run this file with - pip3 install -r requirements.txt
+
 tensorflow
 streamlit
 pillow
@@ -5,5 +7,3 @@ pandas
 matplotlib
 numpy
 requests
-
-#Run this file with - pip3 install -r requirements.txt
